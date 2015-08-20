@@ -8,7 +8,7 @@ A simple Jquery plugin for the EU cookies Law.
 
 How to use
 =======
-see index.php file.
+See index.php file.
 
 License
 =======
