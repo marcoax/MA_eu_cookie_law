@@ -6,3 +6,8 @@ A simple Jquery plugin for the EU cookies Law.
 
 Provided an implementation sample in the index.php file.
 
+
+License
+=======
+Code released under the MIT license
+
