@@ -1,8 +1,9 @@
 # MA eu cookie law
-MA eu cookie law
-EU cookie law php/jquery utility.
+MA eu cookie law jquery plugin
 
 A simple Jquery plugin for the EU cookies Law.
+
+Provided with a php example.
 
 
 
