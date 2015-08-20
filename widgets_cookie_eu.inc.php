@@ -16,7 +16,6 @@ $cookie_message = array(
 		),
 );
 ?>
-
 <div class="cookie_notice" role="status">
 	<span>
 		<?php echo $cookie_message[$lang]['string']?>.&nbsp;
@@ -29,11 +28,10 @@ $cookie_message = array(
 <script type="text/javascript">
     jQuery(document).ready(function() {
       	$.maCookieEu(this,{
-    			position    	: "bottom",
-				cookie_name 	: "<?php echo $cookie_name ?>",
-				background		: "#9E1F63",
-				delete_cookie 	: <?php echo (isset($_GET['delete'])) ? $_GET['delete'] : 'false'?>
-			}
-		);
+			position    	: "bottom",
+			cookie_name 	: "<?php echo $cookie_name ?>",
+			background		: "#9E1F63",
+			delete_cookie 	: <?php echo (isset($_GET['delete'])) ? $_GET['delete'] : 'false'?>
+		});
     });
 </script>
