@@ -1,8 +1,8 @@
 <?php 
-//  DEFINE SOME CONFIG VARIABLES
-$cookie_name    = 'ma_eu'; //  cookie name
-$privacy_url    = '/privacy.php'; //  cookie name
-$lang    		= (isset($_GET['lang']) && $_GET['lang']!='') ? $_GET['lang']: 'en';
+//DEFINE SOME CONFIG VARIABLES
+$cookie_name    = 'ma_eu'; //cookie name
+$privacy_url    = '/privacy.php'; //  privacy page url
+$lang    		= ( isset($_GET['lang']) && $_GET['lang']!='' ) ? $_GET['lang']: 'en'; // set the  language
 
 $cookie_message = array(
 		'en' => array(
