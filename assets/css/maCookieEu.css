@@ -1,0 +1,67 @@
+div.cookie_notice[role="status"] {
+	display: none;
+	position: fixed;
+	left: 0px;
+	z-index: 100000;
+	background: #52565a none repeat scroll 0 0;
+	font-weight: 200;
+}
+
+div[role="status"] {
+	box-sizing: border-box;
+	color: #FFFFFF;
+	padding: 10px 32px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+div[role="status"] a {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+div[role="status"] span {
+	font-weight: bold;
+	text-decoration: none;;
+}
+
+div[role="status"] span:hover {
+
+	cursor: pointer;
+}
+
+div[role="status"] .closer {
+
+	cursor: pointer;
+	padding: 5px;
+	position: absolute;
+	right: 10px;
+	top: 0;
+	color: white !important;
+
+	-webkit-transition: -webkit-transform 0.4s ease-in-out;
+	-moz-transition: -moz-transform 0.4s ease-in-out;
+	-o-transition: -o-transform 0.4s ease-in-out;
+	-ms-transition: -ms-transform 0.4s ease-in-out;
+	transition: transform 0.4s ease-in-out;
+	cursor: pointer;
+}
+
+div[role="status"] .closer:hover {
+	
+	-webkit-transform: rotateZ(90deg);
+	-moz-transform: rotateZ(90deg);
+	-ms-transform: rotateZ(90deg);
+	-o-transform: rotateZ(90deg);
+	transform: rotateZ(90deg);
+}
+
+@media screen and (max-width: 911px) {
+
+	div[role="status"] .closer  {
+
+		margin-top: 5px;
+	}
+
+}
+
