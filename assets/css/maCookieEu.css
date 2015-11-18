@@ -2,9 +2,11 @@ div.cookie_notice[role="status"] {
 	display: none;
 	position: fixed;
 	left: 0px;
+	top:0px;
 	z-index: 100000;
 	background: #52565a none repeat scroll 0 0;
 	font-weight: 200;
+	fon
 }
 
 div[role="status"] {
